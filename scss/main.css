@@ -1,0 +1,195 @@
+body {
+  font-family: Roboto; }
+
+img {
+  max-width: 100%;
+  height: 100%; }
+
+.header__title {
+  padding-top: 170px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-weight: 500;
+  color: #11264A; }
+.header-slider {
+  box-shadow: 0px 4px 20px rgba(17, 38, 74, 0.2); }
+  .header-slider .slick-arrow {
+    z-index: 5;
+    padding-top: 25px;
+    margin: 0 16px; }
+  .header-slider .slick-dots {
+    z-index: 0;
+    display: flex;
+    justify-content: center; }
+    .header-slider .slick-dots li {
+      bottom: 70px;
+      left: 12%; }
+      .header-slider .slick-dots li button ::before {
+        color: #11264A;
+        opacity: 1; }
+      .header-slider .slick-dots li .slick-active button ::before {
+        color: #E8C48A; }
+  .header-slider__item__content .cord {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family: Playfair Display; }
+    .header-slider__item__content .cord .sl-count__num {
+      color: #E8C48A;
+      font-size: 45px; }
+    .header-slider__item__content .cord .sl-count__total {
+      font-size: 30px;
+      color: rgba(17, 38, 74, 0.5); }
+  .header-slider__item__content p {
+    margin-bottom: 10px; }
+  .header-slider__item__content__price {
+    padding-top: 40px;
+    padding-right: 195px;
+    color: #C69642;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 25px; }
+  .header-slider__item__content__result {
+    font-size: 20px;
+    padding-right: 125px;
+    color: #11264A; }
+    .header-slider__item__content__result span {
+      font-size: 15px; }
+    .header-slider__item__content__result :nth-child(3) {
+      padding-top: 20px; }
+.header .slick-dotted.slick-slider {
+  margin-bottom: 0; }
+.header__finances__title {
+  padding-top: 35px;
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 25px;
+  color: #11264A; }
+.header__finances__item p {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #C69642; }
+.header__finances__item span {
+  font-size: 15px;
+  font-weight: normal;
+  color: #11264A; }
+
+.section-contact {
+  margin-top: 110px;
+  background: url("../images/section-contact.png"); }
+  .section-contact .gradient {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(0deg, rgba(17, 38, 74, 0.5), rgba(17, 38, 74, 0.5)), linear-gradient(0deg, rgba(17, 38, 74, 0.5), rgba(17, 38, 74, 0.5)); }
+  .section-contact .contact-form {
+    padding-top: 64px;
+    padding-left: 70px;
+    background: white; }
+    .section-contact .contact-form .step {
+      display: none; }
+    .section-contact .contact-form label {
+      font-size: 15px;
+      color: #11264A;
+      padding-bottom: 20px; }
+    .section-contact .contact-form input, .section-contact .contact-form select, .section-contact .contact-form textarea {
+      width: 60%;
+      outline: none;
+      padding-top: 16px;
+      padding-bottom: 12px;
+      padding-left: 16px;
+      font-size: 15px;
+      color: rgba(17, 38, 74, 0.6);
+      border-radius: 5px;
+      border: 1px solid #E8C48A; }
+    .section-contact .contact-form select {
+      padding-top: 0; }
+    .section-contact .contact-form .text {
+      width: 100%;
+      padding-bottom: 130px; }
+    .section-contact .contact-form .form-check-label {
+      padding-left: 25px;
+      font-size: 10px;
+      color: #11264A; }
+    .section-contact .contact-form .form-check-input {
+      margin-top: 7px;
+      width: 20%;
+      background: #11264A; }
+    .section-contact .contact-form .phone {
+      padding-left: 35px;
+      width: 100%;
+      background: url("../images/phone.png") no-repeat 5px 15px;
+      background-size: auto 40%; }
+    .section-contact .contact-form small {
+      margin-top: -20px;
+      display: flex; }
+    .section-contact .contact-form .next-step {
+      position: relative;
+      margin-bottom: 49px;
+      margin-top: 56px;
+      margin-right: 150px;
+      padding: 14px 70px 11px 70px;
+      background: linear-gradient(90deg, #D7B57E 0%, #FAD08C 100%);
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 12px;
+      color: #11264A; }
+      .section-contact .contact-form .next-step ::before {
+        content: url(../images/arrow.png);
+        position: absolute;
+        bottom: 0;
+        right: 102%; }
+      .section-contact .contact-form .next-step :hover {
+        text-decoration: none; }
+    .section-contact .contact-form .sumbit-btn {
+      display: none;
+      width: 35%; }
+  .section-contact .contact__content {
+    padding-top: 59px;
+    padding-left: 49px;
+    padding-right: 49px;
+    background: linear-gradient(180deg, #173363 0%, #11264A 100%), #11264A; }
+    .section-contact .contact__content p {
+      font-weight: 500;
+      font-size: 40px;
+      color: white;
+      padding-bottom: 20px;
+      margin-bottom: 0; }
+    .section-contact .contact__content span {
+      font-size: 18px;
+      color: white; }
+  .section-contact .progress {
+    margin-top: 5px;
+    margin-bottom: 65px;
+    width: 60%;
+    height: 7px; }
+    .section-contact .progress ::-webkit-progress-bar {
+      background: white; }
+    .section-contact .progress ::-webkit-progress-value {
+      background: #E8C48A; }
+    .section-contact .progress-value {
+      font-weight: 500;
+      font-size: 15px; }
+  .section-contact .step h4 {
+    padding-top: 108px;
+    font-weight: 500;
+    font-size: 40px;
+    color: #11264A; }
+  .section-contact .step :nth-child(3) {
+    font-size: 18px;
+    color: #11264A; }
+  .section-contact .step p:nth-child(4) {
+    padding-bottom: 125px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #11264A; }
+  .section-contact .step .cross {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    font-size: 20px;
+    color: #FBD9A4; }
+
+/*# sourceMappingURL=main.css.map */

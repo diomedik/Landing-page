@@ -1,0 +1,116 @@
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.header {
+  font-family: Roboto;
+}
+.header__title {
+  padding-top: 170px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-weight: 500;
+  color: #11264A;
+}
+.header-slider .slick-arrow {
+  z-index: 5;
+  padding-top: 25px;
+  margin: 0 16px;
+}
+.header-slider .slick-dots {
+  z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header-slider .slick-dots li {
+  bottom: 40px;
+  left: 12%;
+}
+.header-slider .slick-dots li button ::before {
+  color: #11264A;
+  opacity: 1;
+}
+.header-slider .slick-dots li .slick-active button ::before {
+  color: #E8C48A;
+}
+.header-slider__item__content .cord {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 50px;
+  padding-top: 30px;
+  font-family: Playfair Display;
+}
+.header-slider__item__content .cord .sl-count__num {
+  color: #E8C48A;
+  font-size: 45px;
+}
+.header-slider__item__content .cord .sl-count__total {
+  font-size: 30px;
+  color: rgba(17, 38, 74, 0.5);
+}
+.header-slider__item__content p {
+  margin-bottom: 10px;
+}
+.header-slider__item__content__price {
+  padding-top: 40px;
+  padding-right: 195px;
+  color: #C69642;
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 25px;
+}
+.header-slider__item__content__result {
+  font-size: 20px;
+  padding-right: 125px;
+  color: #11264A;
+}
+.header-slider__item__content__result span {
+  font-size: 15px;
+}
+.header-slider__item__content__result :nth-child(3) {
+  padding-top: 20px;
+}
+.header__finances__title {
+  padding-top: 35px;
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 25px;
+  color: #11264A;
+}
+.header__finances__item p {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #C69642;
+}
+.header__finances__item span {
+  font-size: 15px;
+  font-weight: normal;
+  color: #11264A;
+}
+
+.section-contact {
+  padding-top: 80px;
+  padding-left: 391px;
+  opacity: 1;
+  z-index: 2;
+  background: url("../images/section-contact.png");
+}
+.section-contact .container-contact {
+  /*background: linear-gradient(0deg, #11264A, #11264A), linear-gradient(0deg, #11264A, #11264A);
+  opacity: 0.5;*/
+}
+.section-contact .contact-form {
+  background: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
